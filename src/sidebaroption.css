@@ -1,0 +1,50 @@
+.sidebaroption{
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+    height: 35px;
+    padding-left: 9px;
+    padding-top: 3px;
+    margin-left: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color: #72767a;
+}
+.sidebaroption:hover,
+.sidebaroption :hover> h3,
+.sidebaroption :hover> p {
+    flex: 0.1;
+    background-color: #fce8e6;
+    color: #d93025;
+    font-weight: 400 !important;
+    border-radius: 20px !important;
+}
+
+.sidebaroption > h3{
+    flex: 4;
+    color: grey;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.sidebaroption > p{
+    font-weight: 500;
+    flex: 0.8;
+    width: 400px;
+    margin-left: 20px;
+    padding-left: 30px;
+
+}
+.sidebaroption :hover >p{
+    display: inline;
+    color: #d93025;
+}
+.sidebaroption :hover >h3{
+    color: #d93025;
+}
+
+
+
+

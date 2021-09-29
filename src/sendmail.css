@@ -1,0 +1,144 @@
+.sendmail{
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+    background-color: #404040;
+    width: 40%;
+    height: 55%;
+    max-width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow:  0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sendmail__top{
+    display: flex;
+    border-bottom: 1px solid black;
+    align-items: center;
+    height: 50px;
+}
+
+.sendmail__top > h3{
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 450;
+    color: white;
+}
+.sendmail__close{
+    display: flex;
+    flex: 1;
+    margin-left: 330px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.sendmail__middle{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+
+}
+
+.sendmail__middle > form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;   
+    padding-top: 5px;
+   
+}
+
+.sendmail__middle > form > input{
+    border: none;
+    background-color: white;
+    resize: none;
+    outline: none;
+    border-bottom: 1px solid whitesmoke;
+    align-items: center;
+    padding: 13px;
+    font-size: 15px;
+}
+.message_compose_box{
+    height: 140px;
+}
+
+.sendmail__bottom{
+    flex-direction: column;
+    flex: 1;
+    padding-top: 9px;
+    margin-left: 10px;
+}
+
+.sendmail__bottom > Button{
+    color: white;
+    background-color: #1a73e8 ;
+}
+
+.sendmail__error{
+    color: red;
+    text-align: right;
+    padding: 2px;
+}
+
+
+
+
+/* .sendmail__header{
+    padding: 13px;
+    display: flex;
+    flex: 0.1;
+    justify-content: space-between;
+    color: grey;
+    color: black;
+    align-items: center;
+    border-bottom: 1px solid white;
+
+}
+
+.sendmail__header > h3{
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+.sendmail > form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    
+}
+
+.sendmail > form > input{
+    border: none;
+    background-color: white;
+    resize: none;
+    outline: none;
+    border-bottom: 1px solid whitesmoke;
+    align-items: center;
+    height: 30px;
+    padding: 8px;
+
+
+}
+.sendmial__butoon{
+    padding: 5px;
+    background-color: grey;
+    
+}
+
+.sendmial__butoon > Button{
+    background-color: #1a73e8;
+    color: white;
+    width: 100px;
+}
+
+.message_compose_box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bottom__message{
+} */

@@ -1,0 +1,31 @@
+.sidebar{
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+    border-bottom: 5px solid #f1f3f4;
+}
+.sidebar > button{
+    font-size: medium;
+    color: #72767a;
+    font-weight: 500;
+    background-color: #f1f3f4;
+    margin-left: 20px;
+    border-radius: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    
+}
+
+.sidebar > button :hover {
+    cursor: pointer;
+}
+.sidebar__footer{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    text-align: left ;
+    margin-left: -150px;
+    
+}
